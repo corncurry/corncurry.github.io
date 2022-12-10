@@ -1,0 +1,12 @@
+html{
+    background: #363636;
+}
+body{
+    color: white;
+}
+.disname{
+    color: rgb(0, 0, 0);
+    background-color: #f6f6f6;
+    width: 150px;
+    height: 18px;
+}
