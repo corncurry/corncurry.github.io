@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja"></html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>network認証</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1 class="title">認証する場合は以下の利用規約に同意してください</h1>
+    </header>
+    <body class="bro">
+      <h2>利用規約</h2>
+          <p>VPN等の仕様を禁止とする<br>荒らし行為、BOTを重くするような行動をした際<br>信用pointが減ります<br>信用pointが一定数超えた場合<br>特定のサーバーに参加不可となります</p>
+    </body>
+    <form>
+      <div>
+        <input type="checkbox" class="btn" id="agree" />
+        <label for="agree">同意する</label>
+      </div>
+      <button type="submit" class="submit-btn" id="submit-btn" onclick="window.open('discord.html')" disabled>送信する</button>
+      <script src="./js/index.js"></script>
+    </form>
+</html>
